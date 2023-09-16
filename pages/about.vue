@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center">
-      <span class="font-thin text-6xl my-4 text-[#677788]">360 Tools</span>
+      <span class="font-thin text-6xl my-4 text-[#677788]">DP Education - Branch Manager</span>
     </div>
 
     <footer>
@@ -12,6 +12,6 @@
 
 <script setup>
   useHead({
-    title: '360 Tools | About'
+    title: 'Admin | About'
   })
 </script>

@@ -9,11 +9,11 @@ export default defineNuxtConfig({
     ],
     app: {
         head: {
-            title: '360 Tools',
+            title: 'Admin',
             meta: [
                 {
                     name: 'description',
-                    content: 'Amazing web tools from 360 to boost your daily life'
+                    content: 'DP Education branch management panel'
                 }
             ]
         }
