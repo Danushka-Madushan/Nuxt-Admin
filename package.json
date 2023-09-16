@@ -17,5 +17,6 @@
     "@tailvue/nuxt": "^1.0.0",
     "@types/node": "^20.6.1",
     "nuxt": "^3.7.3"
-  }
+  },
+  "version": "0.0.1"
 }
