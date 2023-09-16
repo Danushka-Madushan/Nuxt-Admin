@@ -19,7 +19,7 @@
 
 <script setup>
     useHead({
-        title: '360 Tools | Lookup'
+        title: 'Admin | Branch Managers'
     })
 
     const { public: { API } } = useRuntimeConfig()

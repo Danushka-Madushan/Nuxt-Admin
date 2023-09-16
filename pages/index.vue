@@ -1,6 +1,6 @@
 <template>
   <div class="shadow-lg p-6 rounded-md">
-    <Shortener @onResponse="(type, message) => $toast.show({ type: type, message: message })"/>
+    <AssetManager @onResponse="(type, message) => $toast.show({ type: type, message: message })"/>
   </div>
 </template>
 

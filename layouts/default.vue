@@ -6,7 +6,8 @@
                 <ul class="flex gap-4">
                     <li><NuxtLink to="/" class="text-xl">Home</NuxtLink></li>
                     <li><NuxtLink to="/about" class="text-xl">About</NuxtLink></li>
-                    <li><NuxtLink to="/lookup" class="text-xl btn">Branches</NuxtLink></li>
+                    <li><NuxtLink to="/administrators" class="text-xl">Admins</NuxtLink></li>
+                    <li><NuxtLink to="/branches" class="text-xl btn">Branches</NuxtLink></li>
                 </ul>
             </nav>
         </header>

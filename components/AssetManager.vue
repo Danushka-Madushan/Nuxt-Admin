@@ -3,7 +3,7 @@
         <input @input="(e) => setValue((e.target as HTMLInputElement).value)" type="text"
             class="w-[100%] p-3 my-2 text-xl font-thin outline-none border rounded-lg focus:border-lblue transition-[border] selection:bg-none selection:text-lblue"
             placeholder="https://long-link.com/shorten-it">
-        <button @click="onShortRequest" class="p-3 bg-lblue text-white text-lg w-fit rounded-lg">Shorten URL</button>
+        <button @click="onShortRequest" class="p-3 bg-lblue text-white text-lg w-fit rounded-lg">Create Branch</button>
     </div>
 </template>
 
