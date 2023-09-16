@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-50 selection:bg-none
+}
+
+#toasts > div > div > div {
+    @apply relative w-full bg-white shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5 overflow-hidden;
+}
+
+#toasts > div > div > div > div:first-child {
+    @apply absolute left-0 bottom-0 right-0 h-1 rounded bg-gray-200;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+@layer components {
+    .btn {
+        @apply border-2 border-lblue px-3 py-2 rounded-md text-sm
+    }
+}
