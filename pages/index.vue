@@ -6,6 +6,6 @@
 
 <script setup>
 useHead({
-  title: '360 Tools | Home'
+  title: 'Admin | Home'
 })
 </script>
