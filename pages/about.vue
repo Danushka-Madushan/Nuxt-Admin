@@ -5,7 +5,7 @@
 
     <footer>
       <div class="fixed bottom-12 left-0 w-full flex justify-center items-center">
-        <span class="font-sans text-lg">Made with &#128150; by Danushka Madushan</span>
+        <span class="font-sans text-lg">Made with &#128150; by <a href="https://github.com/Danushka-Madushan/" target="_blank">Danushka Madushan</a></span>
       </div>
     </footer>
 </template>

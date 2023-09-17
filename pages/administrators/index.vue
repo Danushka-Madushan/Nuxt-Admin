@@ -21,7 +21,7 @@
 
 <script setup>
     useHead({
-        title: 'Admin | Branch Managers'
+        title: 'Admin | Branch Admins'
     })
 
     const { public: { API, TOKEN } } = useRuntimeConfig()
