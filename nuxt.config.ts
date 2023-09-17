@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss',
         '@tailvue/nuxt',
+        'nuxt-headlessui'
     ],
     app: {
         head: {
@@ -20,7 +21,8 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         public: {
-            API: 'http://localhost:8080'
+            API: 'https://api.xtream360.com',
+            TOKEN: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoIjoiQWRtaW4iLCJpYXQiOjE2OTQ5ODQ0MTUsImV4cCI6MTY5NTA3MDgxNX0.gHp82rLiteVqi7SC2-T5CQrwsgGY2xrKMV6PbScPuDo'
         }
     }
 })
