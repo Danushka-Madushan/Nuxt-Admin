@@ -68,7 +68,7 @@ const onShortRequest = async (type: "admin" | "branch") => {
                 return Emit('onResponse', 'danger', 'NIC is Empty')
             }
 
-            const { data: response } = await useFetch('/api/new', {
+            const { data: response } = await useFetch('/api/admin', {
                 method: 'POST',
                 body: {
                     "name": name,
