@@ -1,5 +1,8 @@
 <template>
-    <div>
+    <div v-if="DEV">
+        <UnderDev/>
+    </div>
+    <div v-else>
         <header class="shadow-md bg-white">
             <nav class="container mx-auto p-4 flex justify-between">
                 <NuxtLink to="/" class="text-2xl">Branch Manager</NuxtLink>
@@ -19,6 +22,10 @@
         <!-- Content -->
     </div>
 </template>
+
+<script lang="ts" setup>
+const { public: { DEV } } = useRuntimeConfig()
+</script>
 
 <style scoped>
     .router-link-active {
